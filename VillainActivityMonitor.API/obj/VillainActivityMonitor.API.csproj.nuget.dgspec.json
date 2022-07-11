@@ -1,27 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "d:\\repos\\VillainActivityMonitor\\VillainActivityMonitor.API\\VillainActivityMonitor.API.csproj": {}
+    "/Users/jmaus/Documents/repos/VillainActivityMonitor/VillainActivityMonitor.API/VillainActivityMonitor.API.csproj": {}
   },
   "projects": {
-    "d:\\repos\\VillainActivityMonitor\\VillainActivityMonitor.API\\VillainActivityMonitor.API.csproj": {
+    "/Users/jmaus/Documents/repos/VillainActivityMonitor/VillainActivityMonitor.API/VillainActivityMonitor.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\repos\\VillainActivityMonitor\\VillainActivityMonitor.API\\VillainActivityMonitor.API.csproj",
+        "projectUniqueName": "/Users/jmaus/Documents/repos/VillainActivityMonitor/VillainActivityMonitor.API/VillainActivityMonitor.API.csproj",
         "projectName": "VillainActivityMonitor.API",
-        "projectPath": "d:\\repos\\VillainActivityMonitor\\VillainActivityMonitor.API\\VillainActivityMonitor.API.csproj",
-        "packagesPath": "C:\\Users\\mausc\\.nuget\\packages\\",
-        "outputPath": "d:\\repos\\VillainActivityMonitor\\VillainActivityMonitor.API\\obj\\",
+        "projectPath": "/Users/jmaus/Documents/repos/VillainActivityMonitor/VillainActivityMonitor.API/VillainActivityMonitor.API.csproj",
+        "packagesPath": "/Users/jmaus/.nuget/packages/",
+        "outputPath": "/Users/jmaus/Documents/repos/VillainActivityMonitor/VillainActivityMonitor.API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "G:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "I:\\Syncfusion\\Essential Studio\\WPF\\20.1.0.55\\ToolboxNuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mausc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
+          "/Users/jmaus/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -72,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
