@@ -1,7 +1,17 @@
+using DevExpress.Xpo;
+using VillainActivityMonitor.API.Models.Xpo;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+Directory.CreateDirectory("./Data/");
+builder.Services.AddXpoDefaultUnitOfWork(true,
+options =>
+    options.UseConnectionString(builder.Configuration.GetConnectionString("SQLite"))
+    .UseAutoCreationOption(DevExpress.Xpo.DB.AutoCreateOption.DatabaseAndSchema)
+    .UseConnectionPool(false)
+    .UseEntityTypes(new Type[] { typeof(XpoVillain) })
+);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

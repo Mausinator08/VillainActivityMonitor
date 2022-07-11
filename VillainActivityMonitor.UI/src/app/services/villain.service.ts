@@ -8,11 +8,13 @@ import { Villain } from '../models/villain';
   providedIn: 'root'
 })
 export class VillainService {
-  private url: string = "Villain";
-
   constructor(private http: HttpClient) { }
 
   public getVillains(): Observable<Villain[]> {
-    return this.http.get<Villain[]>(`${environment.apiUrl}/${this.url}`);
+    return this.http.get<Villain[]>(`${environment.apiUrl}/Villain/GetVillains`);
+  }
+
+  public addVillain(villain: Villain): void {
+    this.http.post(`${environment.apiUrl}/Villain/AddVillain`, villain);
   }
 }
