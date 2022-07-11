@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q6BqktBp1+6kS/DksIcVv4xU0VH6gKQ8srCFglfj0NQ=",
+  "Source": "VillainActivityMonitor.API",
+  "BasePath": "_content/VillainActivityMonitor.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
